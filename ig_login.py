@@ -15,11 +15,11 @@ def login(driver):
             break
 
     username_field = driver.find_element_by_name("username")
-    username_field.send_keys(input("Enter Instagram Username: "))
+    username_field.send_keys(input("socialfastpromos"))
     time.sleep(0.5)
     
     password_field = driver.find_element_by_name("password")
-    password_field.send_keys(getpass.getpass("Enter Instagram Password: "))
+    password_field.send_keys(getpass.getpass("1234560"))
     time.sleep(0.5)
     
     login_button = driver.find_element_by_css_selector("[type^=submit]")
